@@ -28,7 +28,7 @@ pipeline {
                 }
             }
             steps {
-                sh ''''
+                sh '''
                     test -f build/index.html
                     npm test
                 '''
